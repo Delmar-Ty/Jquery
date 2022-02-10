@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    position: relative;
+}
+
+
+#nav-bar {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    min-height: 8vh;
+}
+
+#nav-container {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: 5%;
+}
+
+.nav-item {
+    margin-right: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item:hover {
+    padding: 1%;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+}
+
+#bg-img {
+    height: 92vh;
+    width: 100%;
+    background: url(../Media/sunrise-gc5037067c_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+#title {
+    position: absolute;
+    color: white;
+    top: 40%;
+    left: 15%;
+    font-size: 3rem;
+    font-family: 'Syne Tactile', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#accordion {
+    width: 50%;
+    margin-top: 5%;
+}
+
+.ui-state-default {
+    background-color: black;
+    border-style: none;
+    color: white;
+}
+
+.ui-state-active {
+    background-color: #a75d84;
+}
+
+.ui-widget-content {
+    background-color: rgb(255, 255, 255);
+    color: #794a74;
+}
+
+#datepickermain {
+    margin-top: 10%;
+}
+
+#datepicker {
+    border-radius: 10px;
+    border-color: #794a74;
+    border-style: solid;
+    padding: 2%;
+}
+
+#progressbar {
+    width: 75%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-color: #a75d84;
+}
+
+.ui-widget-header {
+    background-color: #794a74;
+}
+
+#foot {
+    min-height: 10vh;
+    background-color: black;
+}
